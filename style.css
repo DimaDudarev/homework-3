@@ -255,11 +255,15 @@ p {
     margin-left: 20px;
 }
 
+.filters-btn-wrapper {
+    padding: 0 20px;
+}
+
 .clear-filters {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 20px;
+    /* margin ADDS to the specified widths. So we use padding on container*/
     gap:15px;
     width:100%;
 }
